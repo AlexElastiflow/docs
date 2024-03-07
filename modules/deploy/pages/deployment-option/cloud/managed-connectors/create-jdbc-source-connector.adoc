@@ -21,6 +21,7 @@ The JDBC Source connector has the following limitations:
 ** PostgreSQL 8.2 and higher using the version 3.0 of the PostgreSQL® protocol
 ** SQLite
 ** SQL Server - Microsoft SQL versions: Azure SQL Database, Azure Synapse Analytics, Azure SQL Managed Instance, SQL Server 2014, SQL Server 2016, SQL Server 2017, SQL Server 2019
+* Select the initial timestamp or initial value carefully, so the data set is not too big. Otherwise the memory usage can be too excessive.
 
 == Create a JDBC Source connector
 
